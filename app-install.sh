@@ -10,8 +10,8 @@ sudo pacman -S --needed --noconfirm arc-gtk-theme papirus-icon-theme gnome-keyri
 sudo pacman -S --needed --noconfirm system-config-printer blueman networkmanager-openvpn hplip arandr
 sudo pacman -S --needed --noconfirm remmina freerdp gnome-system-monitor maui-pix audacious okular gnome-screenshot
 sudo pacman -S --needed --noconfirm ncdu htop btop putty bat fzf tldr exa gprename nomacs ristretto flameshot pacman-contrib
-sudo pacman -S --needed --noconfirm gnome-characters obsidian-icon-theme deepin-icon-theme nfs-utils inotify-tools gnome-terminal netdiscover
-sudo pacman -S --needed --noconfirm ligreoffice-fresh mediainfo-gui mpv networkmanager-openvpn notepadqq
+sudo pacman -S --needed --noconfirm gnome-characters obsidian-icon-theme deepin-icon-theme nfs-utils inotify-tools gnome-terminal
+sudo pacman -S --needed --noconfirm libreoffice-fresh hunspell hunspell-en_us mediainfo-gui mpv notepadqq
 #sudo pacman -S --needed --noconfirm cups cups-pdf
 #sudo systemctl enable --now cups
 yay -S google-chrome
@@ -24,5 +24,6 @@ yay -S albert
 yay -S mullvad-vpn
 yay -S timeshift
 yay -S timeshift-autosnap
+yay -S netdiscover
 
 
