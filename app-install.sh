@@ -11,9 +11,9 @@ sudo pacman -S --needed --noconfirm system-config-printer blueman networkmanager
 sudo pacman -S --needed --noconfirm remmina freerdp gnome-system-monitor maui-pix audacious okular gnome-screenshot
 sudo pacman -S --needed --noconfirm ncdu htop btop putty bat fzf tldr exa gprename nomacs ristretto flameshot pacman-contrib
 sudo pacman -S --needed --noconfirm gnome-characters obsidian-icon-theme deepin-icon-theme nfs-utils inotify-tools gnome-terminal
-sudo pacman -S --needed --noconfirm libreoffice-fresh hunspell hunspell-en_us mediainfo-gui mpv notepadqq
-#sudo pacman -S --needed --noconfirm cups cups-pdf
-#sudo systemctl enable --now cups
+sudo pacman -S --needed --noconfirm libreoffice-fresh hunspell hunspell-en_us mediainfo-gui mpv notepadqq foliate ebook-tools
+sudo pacman -S --needed --noconfirm cups cups-pdf
+sudo systemctl enable --now cups
 yay -S google-chrome
 yay -S ttf-ms-fonts
 yay -S gnome-disk-utility
