@@ -12,7 +12,7 @@ sudo pacman -S --needed --noconfirm remmina freerdp gnome-system-monitor maui-pi
 sudo pacman -S --needed --noconfirm ncdu htop btop putty bat fzf tldr exa gprename nomacs ristretto flameshot pacman-contrib
 sudo pacman -S --needed --noconfirm gnome-characters obsidian-icon-theme deepin-icon-theme nfs-utils inotify-tools gnome-terminal
 sudo pacman -S --needed --noconfirm libreoffice-fresh hunspell hunspell-en_us mediainfo-gui mpv notepadqq foliate ebook-tools
-sudo pacman -S --needed --noconfirm cups cups-pdf
+sudo pacman -S --needed --noconfirm cups cups-pdf czkawka mullvad-vpn
 sudo systemctl enable --now cups
 yay -S google-chrome
 yay -S ttf-ms-fonts
@@ -21,9 +21,10 @@ yay lightdm-slick-greeter
 yay lightdm-settings
 yay -S pamac-aur
 yay -S albert
-yay -S mullvad-vpn
+#yay -S mullvad-vpn
 yay -S timeshift
 yay -S timeshift-autosnap
 yay -S netdiscover
+yay -S mp3gain
 
 
