@@ -1,5 +1,5 @@
 cp -r Wallpapers ~/Pictures/
-cp ./shell-arch/.* ~
+cp ./arch-shell/.* ~
 cat fstab.txt | sudo tee -a /etc/fstab
 sudo mkdir /media
 sudo mkdir /media/pinky
