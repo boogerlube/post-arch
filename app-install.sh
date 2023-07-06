@@ -14,11 +14,11 @@ sudo pacman -S --needed --noconfirm gnome-characters obsidian-icon-theme deepin-
 sudo pacman -S --needed --noconfirm libreoffice-fresh hunspell hunspell-en_us mediainfo-gui mpv notepadqq foliate ebook-tools
 sudo pacman -S --needed --noconfirm cups cups-pdf czkawka mullvad-vpn gnome-calculator gnome-clocks
 sudo systemctl enable --now cups
-sudo pacman -S google-chrome
-sudo pacman -S ttf-ms-fonts
-sudo pacman -S gnome-disk-utility
-sudo pacman -S lightdm-slick-greeter
-sudo pacman -S lightdm-settings
+sudo pacman -S --needed --noconfirm google-chrome
+sudo pacman -S --needed --noconfirm ttf-ms-fonts
+sudo pacman -S --needed --noconfirm gnome-disk-utility
+sudo pacman -S --needed --noconfirm lightdm-slick-greeter
+sudo pacman -S --needed --noconfirm lightdm-settings
 #yay -S pamac-aur
 #yay -S albert
 #yay -S mullvad-vpn
@@ -26,7 +26,9 @@ sudo pacman -S lightdm-settings
 #yay -S timeshift-autosnap
 yay -S netdiscover
 yay -S mp3gain
-#sudo pacman -S xdg-desktop-portal-gnome
-#sudo pacman -S xdg-desktop-portal-gtk
+
+## If gnome apps are slow to lauch execute the line below:
+#sudo pacman -R xdg-desktop-portal-gnome
+
 
 

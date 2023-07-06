@@ -7,3 +7,4 @@ sudo mkdir /media/pinky
 sudo mkdir /media/share
 sudo mkdir /media/torrent
 sudo mount -a
+source ~/.bashrc
