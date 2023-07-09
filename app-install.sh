@@ -13,6 +13,7 @@ sudo pacman -S --needed --noconfirm ncdu htop btop putty bat fzf tldr exa gprena
 sudo pacman -S --needed --noconfirm gnome-characters obsidian-icon-theme deepin-icon-theme inotify-tools gnome-terminal
 sudo pacman -S --needed --noconfirm libreoffice-fresh hunspell hunspell-en_us mediainfo-gui mpv notepadqq foliate ebook-tools
 sudo pacman -S --needed --noconfirm cups cups-pdf czkawka mullvad-vpn gnome-calculator gnome-clocks
+sudo pacman -S --needed --noconfirm yt-dlp rtmpdump atomicparsley aria2 python-mutagen pyton-pycryptodomex python-websockets
 sudo systemctl enable --now cups
 sudo pacman -S --needed --noconfirm google-chrome
 sudo pacman -S --needed --noconfirm ttf-ms-fonts
