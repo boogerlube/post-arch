@@ -8,3 +8,5 @@ sudo mkdir /media/share
 sudo mkdir /media/torrent
 sudo mount -a
 source ~/.bashrc
+sudo mkdir /etc/samba
+sudo cp smb.conf /etc/samba/
