@@ -12,7 +12,7 @@ sudo pacman -S --needed --noconfirm remmina freerdp gnome-system-monitor maui-pi
 sudo pacman -S --needed --noconfirm ncdu htop btop putty bat fzf tldr exa gprename ristretto flameshot pacman-contrib
 sudo pacman -S --needed --noconfirm gnome-characters obsidian-icon-theme deepin-icon-theme inotify-tools gnome-terminal
 sudo pacman -S --needed --noconfirm libreoffice-fresh hunspell hunspell-en_us mediainfo-gui mpv notepadqq foliate ebook-tools
-sudo pacman -S --needed --noconfirm cups cups-pdf czkawka mullvad-vpn gnome-calculator gnome-clocks
+sudo pacman -S --needed --noconfirm cups-pdf czkawka mullvad-vpn gnome-calculator gnome-clocks mlocate
 sudo pacman -S --needed --noconfirm yt-dlp rtmpdump atomicparsley aria2 python-mutagen python-pycryptodomex python-websockets
 sudo systemctl enable --now cups
 sudo pacman -S --needed --noconfirm google-chrome
@@ -25,8 +25,9 @@ sudo pacman -S --needed --noconfirm lightdm-settings
 #yay -S mullvad-vpn
 #yay -S timeshift
 #yay -S timeshift-autosnap
-yay -S netdiscover
-yay -S mp3gain
+#yay -S netdiscover
+#yay -S mp3gain
+
 
 ## If gnome apps are slow to lauch execute the line below:
 #sudo pacman -R xdg-desktop-portal-gnome
