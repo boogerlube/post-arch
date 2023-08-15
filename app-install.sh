@@ -27,7 +27,7 @@ sudo pacman -S --needed --noconfirm lightdm-settings
 #yay -S timeshift-autosnap
 #yay -S netdiscover
 #yay -S mp3gain
-
+sudo updatedb
 
 ## If gnome apps are slow to lauch execute the line below:
 #sudo pacman -R xdg-desktop-portal-gnome
