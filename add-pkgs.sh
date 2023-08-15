@@ -1,0 +1,1 @@
+sudo pacman -S --needed - < arch_pkgs.txt
