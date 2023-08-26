@@ -1,12 +1,20 @@
-if [ $(id -u) <> 0 ]; 
+# select the proper disk
+
+export disk="/dev/nvme0n1p"
+
+# make sure we run as root 
+
+if [ $(id -u) != 0 ]; 
 then
    echo "Must run as root" 
    exit
 fi
 
-export disk="/dev/nvme0n1p"
+# load lts kernel if not already loaded
 
 sudo pacman -S --needed --noconfirm linux-lts
+
+# determine cpu architecture
 
 ucode=$(lscpu | grep "^Vendor ID:" | awk -F":" '{print $2}' | xargs)
 
@@ -21,6 +29,7 @@ else
   ARCH=""
 fi
 
+# get disk UUID
 
 UUID=$(blkid -s UUID -o value ${disk}2)
 
