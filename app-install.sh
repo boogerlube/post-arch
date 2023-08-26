@@ -20,6 +20,7 @@ sudo pacman -S --needed --noconfirm ttf-ms-fonts
 sudo pacman -S --needed --noconfirm gnome-disk-utility
 sudo pacman -S --needed --noconfirm lightdm-slick-greeter
 sudo pacman -S --needed --noconfirm lightdm-settings
+sudo sed -i 's/#greeter-session=example-gtk-gnome/greeter-session=lightdm-slick-greeter/' /etc/lightdm/lightdm.conf
 #yay -S pamac-aur
 #yay -S albert
 #yay -S mullvad-vpn
