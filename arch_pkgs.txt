@@ -32,7 +32,7 @@ ebook-tools
 efibootmgr
 evolution
 evolution-ews
-exa
+eza
 faac
 faad2
 file-roller
@@ -87,7 +87,6 @@ mpv
 mtools
 mullvad-vpn
 nano
-ncdu
 neofetch
 neovim
 network-manager-applet
