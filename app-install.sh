@@ -31,7 +31,7 @@ sudo sed -i 's/#greeter-session=example-gtk-gnome/greeter-session=lightdm-slick-
 #yay -S mp3gain
 sudo updatedb
 
-sudo pacman -S --needed - < arch_pkgs.txt
+sudo pacman -S --needed --noconfirm - < arch_pkgs.txt
 
 ## If gnome apps are slow to lauch execute the line below:
 #sudo pacman -R xdg-desktop-portal-gnome
