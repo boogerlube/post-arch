@@ -14,7 +14,7 @@ sudo pacman -S --needed --noconfirm gnome-characters obsidian-icon-theme deepin-
 sudo pacman -S --needed --noconfirm libreoffice-fresh hunspell hunspell-en_us mediainfo-gui mpv notepadqq foliate ebook-tools
 sudo pacman -S --needed --noconfirm cups-pdf czkawka mullvad-vpn gnome-calculator gnome-clocks mlocate sshfs
 sudo pacman -S --needed --noconfirm yt-dlp rtmpdump atomicparsley aria2 python-mutagen python-pycryptodomex python-websockets
-sudo pacman -S --needed --noconfirm bluez bluez-utils usbutils cups
+sudo pacman -S --needed --noconfirm bluez bluez-utils usbutils
 #sudo systemctl enable --now cups
 sudo pacman -S --needed --noconfirm google-chrome
 sudo pacman -S --needed --noconfirm ttf-ms-fonts
